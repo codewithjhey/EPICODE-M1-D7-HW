@@ -49,10 +49,25 @@ console.log("My dog is named " + myDog + ".")
  (Ex.: the 20% of 400 is 80)
 */
 
-/* WRITE YOUR ANSWER HERE */
+// Our number
+let number = 500
+
+//The percentage we want  to get. i.e we want to get 20% of 500.
+let percentToget = 20
+
+//Calculate the percent.
+let percent = (percentToget / 100) * 20
+console.log(percentToget + "% of" + number + " is " + percent)
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
 */
 
-/* WRITE YOUR ANSWER HERE */
+ let myNumber = 50
+if (mynumber % 2 === ) {
+    console.log('The number is even.', )
+} 
+else {
+    console.log('the number is odd.', )
+}
+

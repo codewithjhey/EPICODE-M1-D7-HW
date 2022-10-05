@@ -60,6 +60,7 @@ let name2 = "John"
 console.log("john" === "John") /* Checking equality to be false*/
 if (name1 === name2) {
   console.log("\nThis becomes true, They are both lowercase")
+  caseSensitive
 }
 
 /* EXERCISE 8
@@ -67,22 +68,60 @@ if (name1 === name2) {
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
 
-let stefano = 8
+let variableX = 7
+
+if (variableX === 1) {
+  console.log("X is one")
+} else {
+  console.log("X is not one")
+}
+if (variableX === 2) {
+  console.log("X is two")
+} else {
+  console.log("X is not two")
+}
+if (variableX === 3) {
+  console.log("X is three")
+} else {
+  console.log("X is not three")
+}
+if (variableX === 4) {
+  console.log("X is four")
+} else {
+  console.log("X is not four")
+}
+if (variableX === 5) {
+  console.log("X is five")
+} else {
+  console.log("X is not five")
+}
+if (variableX === 6) {
+  console.log("X is six")
+} else {
+  console.log("X is not six")
+}
+if (variableX === 7) {
+  console.log("X is seven")
+} else {
+  console.log("X is not seven")
+}
+if (variableX === 8) {
+  console.log("X is eight")
+} else {
+  console.log("X is not eight")
+}
+if (variableX === 9) {
+  console.log("X is nine")
+} else {
+  console.log("X is not nine")
+}
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
 
-let workHours = 47
-let bigBonusAdded = 10
-let smallBonusAdded = 5
+let myAge = 30
+let canDrive = myAge >= 18 ? "drive." : " not drive"
 
-let timeSheet
-
-//if workHours is more than 50, you get Big Bonus added
-// if workHours is more than 45, you get small Bonus Added
-// if workHors is less than 40, no bonus added
-
-timeSheet = workHours >= 45 ? workHours : workHours + smallBonusAdded
-console.log("\nYour timesheet is " + workHours + ". You will get a total of?")
+console.log("you can", canDrive)
