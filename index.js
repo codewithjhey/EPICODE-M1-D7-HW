@@ -28,8 +28,8 @@ console.log(sum)
  Create a variable named x and assign to it the number 12.
 */
 
-let victor = x
-let x = 12
+let victor = 'x'
+'x' = 12
 console.log("assignment of x a value of 12", x)
 
 /* EXERCISE 5
