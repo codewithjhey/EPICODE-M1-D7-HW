@@ -28,16 +28,18 @@ console.log(sum)
  Create a variable named x and assign to it the number 12.
 */
 
-let victor = 'x'
-'x' = 12
-console.log("assignment of x a value of 12", x)
+let victor
+let x
+// what is the content of x now? undefined
+x = 12
+console.log("value of x just after assignment:", x)
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
 
 let name = "John Doe"
-console.log("this variable has been assigned a string", "John Doe")
+console.log("this variable has been assigned a string:", "John Doe")
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
@@ -45,3 +47,42 @@ console.log("this variable has been assigned a string", "John Doe")
 
 let difference = 12 - 12
 console.log(difference)
+
+/* EXERCISE 7
+ Create two variables: name1 and name2. Assign to name1 the string "john", and to name2 the string "John" (this one has a capital J!)
+ Verify that name1 is different from name2 (HINT: check their equality to be false).
+ Finally, verify that the equality between name1 and name2 becomes true if both are lowercase (without changing the value of name2).
+*/
+
+let name1 = "john"
+let name2 = "John"
+
+console.log("john" === "John") /* Checking equality to be false*/
+if (name1 === name2) {
+  console.log("\nThis becomes true, They are both lowercase")
+}
+
+/* EXERCISE 8
+ Create a variable named x, and assign to it a numeric value less than 10.
+ Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
+*/
+
+let stefano = 8
+
+/* EXERCISE 9
+ [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
+ try to search it by yourself, tomorrow morning we'll discuss it together!)
+*/
+
+let workHours = 47
+let bigBonusAdded = 10
+let smallBonusAdded = 5
+
+let timeSheet
+
+//if workHours is more than 50, you get Big Bonus added
+// if workHours is more than 45, you get small Bonus Added
+// if workHors is less than 40, no bonus added
+
+timeSheet = workHours >= 45 ? workHours : workHours + smallBonusAdded
+console.log("\nYour timesheet is " + workHours + ". You will get a total of?")
