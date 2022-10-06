@@ -57,11 +57,10 @@ console.log(difference)
 let name1 = "john"
 let name2 = "John"
 
-console.log("john" === "John") /* Checking equality to be false*/
-if (name1 === name2) {
-  console.log("\nThis becomes true, They are both lowercase")
-  caseSensitive
-}
+let differentName1 = name1 === name2
+let differentName2 = name1 === name2.toLowerCase()
+console.log("Names are different is: " + differentName1)
+console.log("Names are different is: " + differentName2 + " if lowercase")
 
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
