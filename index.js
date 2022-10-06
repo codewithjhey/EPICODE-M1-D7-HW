@@ -121,7 +121,7 @@ if (variableX === 9) {
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
 
-let myAge = 30
-let canDrive = myAge >= 18 ? "drive." : " not drive"
+let myAge = 18
+let canDrive = myAge >= 18 ? "drive." : "not drive"
 
 console.log("you can", canDrive)
