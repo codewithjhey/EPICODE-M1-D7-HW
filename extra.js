@@ -16,9 +16,9 @@ console.log("your gender is " + gender)
 /* WRITE YOUR ANSWER HERE */
 console.log("\nEXERCISE 2")
 
-let j = 6
+let j = 8
 let k = 5
-let condition = k - j === 12 || j + k === 12 || 2 === 8 || k === 8
+let condition = k - j === 8 || j + k === 8 || 2 === 8 || k === 8
 console.log("The condition is :" + condition)
 
 /*EX 3
@@ -95,8 +95,8 @@ if (stringOne.length > stringTwo.length) {
 console.log("\nEXERCISE 7")
 
 let g = 59
-let isInteger = number.isInteger(g)
-console.log("g is Integer is: " + isInteger)
+let isInteger = g.isInteger(g)
+console.log("g is Integer if: " + isInteger)
 
 /*EX 8
  Write a piece of code for calculating a certain percentage of a given number.
@@ -120,9 +120,9 @@ console.log("20% of " + o + " is: " + percentToget)
 console.log("\nEXERCISE 9")
 
 let n = "myNumber"
-if (Number.isInteger(n / 2)) {
+if (myNumber.isInteger(n / 2)) {
   console.log("The number is even.")
-} else if (Number.isInteger(n) === false) {
+} else if (myNumber.isInteger(n) === false) {
   console.log("Please insert a number")
 } else {
   console.log("The number is odd.")
